@@ -17,7 +17,7 @@ const TimelineItem = ({ item, index, inView }) => {
       className={`relative flex items-center mb-12 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} transition-all duration-1000 ${inView ? 'opacity-100 translate-x-0' : `opacity-0 ${index % 2 === 0 ? 'translate-x-10' : '-translate-x-10'}`}`}
       style={{ transitionDelay: `${index * 200}ms` }}
     >
-      <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left'}`}>
+      <div className={`w-full md:w-5/12 pl-12 ${index % 2 === 0 ? 'md:pr-8 md:text-right md:pl-0' : 'md:pl-8 md:text-left'}`}>
         <div className={`bg-gradient-to-br ${getTypeColor(item.type)} p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105`}>
           <h3 className="text-2xl font-bold text-white mb-2">{item.year}</h3>
           <h4 className="text-xl font-semibold mb-3 text-white/90">{item.event}</h4>
