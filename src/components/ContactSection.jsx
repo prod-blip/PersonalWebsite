@@ -1,6 +1,5 @@
 import React from 'react';
 import { Mail, } from 'lucide-react';
-// import { SiLinkedin, SiX, SiGithub } from 'react-icons/si';
 import AnimatedSection from './AnimatedSection';
 import SocialLink from './SocialLink';
 import { SOCIAL_LINKS } from '../utils/constants';
