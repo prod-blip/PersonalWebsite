@@ -26,11 +26,11 @@ const AboutSection = () => {
       icon: Building2,
       color: "from-purple-600 to-indigo-600",
       achievements: [
-        "Spearheaded the development of a digital secured lending platform for SME customers, contributing ~₹ 500 Cr annually to the lending portfolio",
-        "Orchestrated flow of entire lead conversion cycle with CRM Integration & automated calling leading to increased overall conversion by 10%",
-        "Executed data-driven digital campaigns, resulting in a 50% increase in clicks and a 10% increase in loan sanctions across the products",
-        "Executed a thorough multi-channel communication strategy, covering all customer touchpoints to ensure product awareness",
-        "Skilled in creating product requirement documents, wireframes, understanding user journey, data analysis & delivering presentations",
+        <>Spearheaded the <strong>development of a digital secured lending platform</strong> for SME customers, contributing ~₹ 500 Cr annually to the lending portfolio</>,
+        <>Orchestrated flow of entire <strong>lead conversion cycle with CRM Integration</strong> & automated calling leading to increased overall conversion by 10%</>,
+        <>Executed <strong>data-driven digital campaigns</strong>, resulting in a 50% increase in clicks and a 10% increase in loan sanctions across the products</>,
+        <>Executed a thorough multi-channel communication strategy, covering all customer touchpoints to ensure product awareness</>,
+        <>Skilled in creating product requirement documents, wireframes, understanding user journey, data analysis & delivering presentations</>,
       ]
     },
     {
@@ -42,7 +42,7 @@ const AboutSection = () => {
       color: "from-indigo-600 to-purple-600",
       achievements: [
         "Overseeing 100% digital adoption of CRM application for Pig Iron Sales facilitating an online experience of purchase & service for end user",
-        "Led consumer research across North India foundry belt to derive specific usage and supply of niche grade Pig Iron increasing FY'21 turnover across the territory by 8%",
+        <>Led <strong>consumer research across North India</strong> foundry belt to derive specific usage and supply of niche grade Pig Iron increasing FY'21 turnover across the territory by 8%</>,
         "Driving digital transformation through implementation of Robotic Process Automation, Pricing Model Analytics & Freight Prediction Model solutions",
         "Scaled direct user base >20% YoY under end-user market acquisition & sales plan in FY'20"
       ]
