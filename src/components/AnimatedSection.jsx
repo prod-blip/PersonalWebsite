@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const AnimatedSection = ({ children, id, className = '', threshold = 0.3, delay = 0 }) => {
+const AnimatedSection = ({ children, id, className = '', threshold = 0.1, delay = 0 }) => {
   const [inView, setInView] = useState(false);
 
   useEffect(() => {

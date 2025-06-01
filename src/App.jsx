@@ -5,6 +5,7 @@ import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
 import TimelineSection from './components/TimelineSection';
 import ContactSection from './components/ContactSection';
+import InterestsSection from './components/InterestsSection';
 
 const App = () => {
   useEffect(() => {
@@ -54,6 +55,7 @@ const App = () => {
       <ProjectsSection />
       <SkillsSection />
       <TimelineSection />
+      <InterestsSection />
       <ContactSection />
     </div>
   );

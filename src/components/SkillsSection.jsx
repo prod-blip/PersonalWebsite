@@ -9,7 +9,7 @@ const SkillsSection = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => setInView(entry.isIntersecting),
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
     
     const element = document.getElementById('skills-section');
@@ -20,10 +20,10 @@ const SkillsSection = () => {
 
   return (
     <section id="skills-section" className="py-20 px-6 bg-white">
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
         <AnimatedSection id="skills-animated">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Wears many hats</h2>
-          <p className="text-lg text-gray-600 mb-12">(The 'Key Skills' section)</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Key Skills</h2>
+          {/* <p className="text-lg text-gray-600 mb-12">(The 'Key Skills' section)</p> */}
           <div className="w-20 h-1 bg-purple-600 mx-auto mb-12"></div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
