@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Waves, MapPin, Zap, Code2, Camera, Mountain, Compass, Heart } from 'lucide-react';
-import yourPhoto from '../assets/DivePicture.jpg';
+import yourPhoto from '../assets/DivePicture.JPG';
 
 const InterestsSection = () => {
     const [inView, setInView] = useState(false);
