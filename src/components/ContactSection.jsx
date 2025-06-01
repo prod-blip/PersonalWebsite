@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail, } from 'lucide-react';
-import { SiLinkedin, SiX, SiGithub } from 'react-icons/si';
+// import { SiLinkedin, SiX, SiGithub } from 'react-icons/si';
 import AnimatedSection from './AnimatedSection';
 import SocialLink from './SocialLink';
 import { SOCIAL_LINKS } from '../utils/constants';
@@ -43,9 +43,9 @@ const ContactSection = () => {
             <p className="text-lg mb-4 opacity-90">Here are some of his social media links</p>
             <div className="flex justify-center space-x-6">
               <SocialLink href={SOCIAL_LINKS.email} icon={Mail} label="Email" />
-              <SocialLink href={SOCIAL_LINKS.linkedin} icon={SiLinkedin} label="LinkedIn" />
-              <SocialLink href={SOCIAL_LINKS.twitter} icon={SiX} label="Twitter" />
-              <SocialLink href={SOCIAL_LINKS.github} icon={SiGithub} label="GitHub" />
+              {/* <SocialLink href={SOCIAL_LINKS.linkedin} icon={SiLinkedin} label="LinkedIn" /> */}
+              {/* <SocialLink href={SOCIAL_LINKS.twitter} icon={SiX} label="Twitter" /> */}
+              {/* <SocialLink href={SOCIAL_LINKS.github} icon={SiGithub} label="GitHub" /> */}
             </div>
           </div>
         </AnimatedSection>
